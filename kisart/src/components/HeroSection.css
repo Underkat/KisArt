@@ -1,0 +1,34 @@
+.hero-container {
+  background-image: url("https://img.pagecloud.com/I41VZqtGOSsF57Q4u1bPXKdre_4=/2100x0/filters:no_upscale()/kiana-stanek-art/images/image-ID-419e79df-1afd-470f-85c2-16463fafa6cf.jpeg") ;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.hero-container article{
+    text-align: center;
+    margin: 100px 100px;
+    color: white;
+    /* font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.hero-container article>h1,span{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+}
+span{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container{
+        margin-top: -100px;
+    }
+    .hero-container article>h1,span{
+        font-size: 2rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+}

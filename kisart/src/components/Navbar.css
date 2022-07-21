@@ -20,13 +20,12 @@
 
 .navbar-logo {
   color: #fff;
-  justify-self: start;
+  
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-  display: flex;
-  align-items: center;
+  border-bottom:8px solid rgb(121, 159, 121);
 }
 
 .fa-typo3 {
@@ -41,7 +40,7 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: start;
+  justify-content: end;
   margin-right: 2rem;
 }
 
@@ -117,7 +116,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(20%, 37%);
   }
 
   .menu-icon {
@@ -155,4 +154,13 @@
     color: #242424;
     transition: 250ms;
   }
+}
+
+@media screen and (max-width: 3000px) {
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(20%, 37%);
+      }
 }
