@@ -45,17 +45,9 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li className="na-item">
-              <Link
-                to="/"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
+            
           </ul>
-          {button && <Button buttonStyle="btn--outline"> Sign Up</Button>}
+          {button && <Button buttonStyle="btn--outline">Contact me</Button>}
         </div>
       </nav>
     </div>

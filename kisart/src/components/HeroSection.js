@@ -5,7 +5,6 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* <img src='/img/background.webp' alt='background'/> */}
       <article>
         <h1>
           "The most valiant thing you can do as an artist is inspire someone

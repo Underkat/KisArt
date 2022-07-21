@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/pages/Home'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
@@ -16,4 +16,3 @@ function App() {
   );
 }
 
-export default App;
