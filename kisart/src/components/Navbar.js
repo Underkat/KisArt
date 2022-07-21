@@ -32,7 +32,7 @@ function Navbar() {
             KIANA STANEK
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fa fa-bars"} />
+            <i className={click ? "fas fa-times fa-2x" : "fa fa-bars fa-2x"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="na-item">
@@ -42,10 +42,16 @@ function Navbar() {
             </li>
             <li className="na-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Contact
+                something
               </Link>
             </li>
-            
+            {!button && (
+              <li className="na-item">
+                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                  Contact
+                </Link>
+              </li>
+            )}
           </ul>
           {button && <Button buttonStyle="btn--outline">Contact me</Button>}
         </div>

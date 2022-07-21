@@ -27,7 +27,7 @@ export default function About() {
           including charcoal, graphite, clay, and acrylic paint.
         </p>
         <p>I hope you enjoy the pieces I've created over the years!</p>
-        <Button>Contact me</Button>
+        <Button className="contact-me">Contact me</Button>
       </section>
       <img src="/img/profile.webp" />
       
