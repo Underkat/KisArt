@@ -1,14 +1,17 @@
-import React from "react";
 import "../../App.css";
 import HeroSection from "../HeroSection";
 import About from "../About";
+import Art from "../Art";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
       <About />
+      <Art />
     </>
-  );
+  )
 }
+
+export default Home
 

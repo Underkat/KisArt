@@ -1,6 +1,8 @@
 .hero-container {
   background-image: url("https://img.pagecloud.com/I41VZqtGOSsF57Q4u1bPXKdre_4=/2100x0/filters:no_upscale()/kiana-stanek-art/images/image-ID-419e79df-1afd-470f-85c2-16463fafa6cf.jpeg") ;
-  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 40vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,20 +15,22 @@
     color: white;
 }
 .hero-container article>h1,span{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    color: rgba(255, 255, 255, 0.7);
 }
 span{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 @media screen and (max-width: 768px) {
     .hero-container{
-        margin-top: -100px;
+        
+        height: 25vh;
     }
     .hero-container article>h1,span{
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
     span{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }

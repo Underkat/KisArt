@@ -1,9 +1,8 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./About.css";
 
-export default function About() {
+const About = () => {
   return (
     <div className="about-container">
       <section className="about-container-content">
@@ -27,10 +26,12 @@ export default function About() {
           including charcoal, graphite, clay, and acrylic paint.
         </p>
         <p>I hope you enjoy the pieces I've created over the years!</p>
-        <Button className="contact-me">Contact me</Button>
+        <Button className="contact-me">CONTACT ME </Button>
       </section>
       <img src="/img/profile.webp" />
       
     </div>
-  );
+  )
 }
+
+export default About

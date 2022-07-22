@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import "./Navbar.css";
 
-function Navbar() {
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -57,7 +57,6 @@ function Navbar() {
         </div>
       </nav>
     </div>
-  );
-}
+)}
 
-export default Navbar;
+export default Navbar

@@ -1,0 +1,9 @@
+.art-container{
+    border: 5px solid red;
+
+}
+
+.art-cards{
+    display:flex;
+    justify-content: center;
+}
