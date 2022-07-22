@@ -4,41 +4,26 @@ import "./Art.css";
 const art = () => {
   return (
     <div className="art-container">
-      <h1>ABOUT ME</h1>
-      <div className="art-cards">
-        <div className="art-cart">
-          <h2></h2>
-          <img src="" />
-          <Button />
-        </div>
-        <div className="art-cart">
-          <h2></h2>
-          <img src="" />
-          <Button />
-        </div>
-        <div className="art-cart">
-          <h2></h2>
-          <img src="" />
-          <Button />
+      <div className="art-content">
+        <h1>my art</h1>
+        <div className="art-cards">
+          <div className="art-card">
+            <h2>drawings</h2>
+            <img src="../img/d_img5.webp" />
+            <Button buttonSize="btn--large">See more</Button>
+          </div>
+          <div className="art-card">
+            <h2>pottery</h2>
+            <img src="../img/p_img11.webp" />
+            <Button buttonSize="btn--large">See more</Button>
+          </div>
+          <div className="art-card">
+            <h2>paintings</h2>
+            <img src="../img/i_img1.webp" />
+            <Button buttonSize="btn--large">See more</Button>
+          </div>
         </div>
       </div>
-      <p>
-        I have been drawing ever since I learned how to hold a crayon. A lot of
-        my childhood was spent making crafts, doodling, and taking art classes
-        at the Nepean Sportsplex in Ottawa West.
-      </p>
-      <p>
-        Now as an adult, when I'm not busy studying, working, or volunteering, I
-        continue to love making art and being creative.
-      </p>
-      <p>
-        Since starting university in the fall of 2014, I've taken a variety of
-        art classes, including portrait drawing, pottery, and landscape
-        painting. Each has taught me not only about great art techniques, but
-        also about myself as an artist, and has reinforced how much I love being
-        creative. I enjoy using a variety of different mediums, including
-        charcoal, graphite, clay, and acrylic paint.
-      </p>
     </div>
   );
 };

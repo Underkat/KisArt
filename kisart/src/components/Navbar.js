@@ -53,7 +53,7 @@ const Navbar = () => {
               </li>
             )}
           </ul>
-          {button && <Button buttonStyle="btn--outline">Contact me</Button>}
+          {/* {button && <Button buttonStyle="btn--outline">Contact me</Button>} */}
         </div>
       </nav>
     </div>

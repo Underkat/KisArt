@@ -26,7 +26,7 @@ const About = () => {
           including charcoal, graphite, clay, and acrylic paint.
         </p>
         <p>I hope you enjoy the pieces I've created over the years!</p>
-        <Button className="contact-me">CONTACT ME </Button>
+        <Button className="contact-me" buttonStyle="btn--outline">CONTACT ME </Button>
       </section>
       <img src="/img/profile.webp" />
       

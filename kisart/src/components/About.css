@@ -11,7 +11,7 @@
 }
 
 .about-container h1{
-    text-decoration: underline rgb(121, 159, 121) 7px;
+    text-decoration: underline #008674 7px;
     font-size: 3rem;
 }
 .about-container p{

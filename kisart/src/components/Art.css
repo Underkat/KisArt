@@ -1,9 +1,57 @@
-.art-container{
-    border: 5px solid red;
-
+.art-container {
+  padding: 10px 10px;
+  background-image: url("https://img.pagecloud.com/I41VZqtGOSsF57Q4u1bPXKdre_4=/2100x0/filters:no_upscale()/kiana-stanek-art/images/image-ID-419e79df-1afd-470f-85c2-16463fafa6cf.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.art-content {
+  max-width: 90%;
+}
+.art-container h1 {
+  padding-left: 20px;
+  font-size: 4rem;
+  color: white;
+  text-decoration: underline #008674 7px;
+  text-transform: Uppercase;
 }
 
-.art-cards{
-    display:flex;
+.art-cards {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.art-card {
+  max-height: 450px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.art-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.art-card > h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+  .art-cards {
+    flex-wrap: wrap;
     justify-content: center;
+  }
+  .art-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

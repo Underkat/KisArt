@@ -26,7 +26,7 @@ export const Button = ({
         onClick={onClick}
         type={type}
       >
-        {children}
+        <h2 className="btn-font">{children}</h2>
       </button>
     </Link>
   );

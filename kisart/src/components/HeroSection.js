@@ -1,4 +1,3 @@
-import "../App.css";
 import "./HeroSection.css";
 
 const HeroSection = () => {
