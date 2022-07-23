@@ -1,0 +1,32 @@
+.drawings {
+  background-image: url("https://img.pagecloud.com/I41VZqtGOSsF57Q4u1bPXKdre_4=/2100x0/filters:no_upscale()/kiana-stanek-art/images/image-ID-419e79df-1afd-470f-85c2-16463fafa6cf.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.drawings h1 {
+  font-size: 4rem;
+  color: white;
+  text-decoration: underline #008674 7px;
+  text-transform: Uppercase;
+  text-align: center;
+  padding: 20px 20px;
+}
+.art-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 10%;
+}
+.art-element {
+  padding: 5px 5px;
+  padding-bottom: 20px;
+}
+.art-element img {
+  width: 400px;
+}
+.art-element h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}

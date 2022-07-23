@@ -7,12 +7,12 @@
 }
 
 .about-container h1, p{
-    font-size: 2rem;   
+    font-size: 2.5rem;   
 }
 
 .about-container h1{
     text-decoration: underline #008674 7px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .about-container p{
     margin: 15px 0;
